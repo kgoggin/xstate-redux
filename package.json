@@ -1,0 +1,9 @@
+{
+  "name": "xstate-redux",
+  "version": "0.0.1",
+  "description": "Redux middleware for working with xstate statecharts",
+  "main": "index.js",
+  "repository": "https://github.com/kgoggin/xstate-redux.git",
+  "author": "kgoggin <kyle@kylegoggin.com>",
+  "license": "MIT"
+}

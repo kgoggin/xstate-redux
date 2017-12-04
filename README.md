@@ -27,4 +27,10 @@ Transitioning the state requires the use of a specific action type supplied by t
 import { transitionState } from 'xstate-redux'
 
 const transition = transitionState('trafficLight')
+
+store.dispatch(transition('TIMER'));
+
+console.log(store.getState().trafficLight);
+
+// 'yellow'
 ```
