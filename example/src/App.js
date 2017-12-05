@@ -7,13 +7,13 @@ import createStore from './store';
 const store = createStore();
 
 class App extends Component {
-	render() {
-		return (
-			<Provider store={store}>
-				<TrafficLight />
-			</Provider>
-		);
-	}
+  render() {
+    return (
+      <Provider store={store}>
+        <TrafficLight />
+      </Provider>
+    );
+  }
 }
 
 export default App;

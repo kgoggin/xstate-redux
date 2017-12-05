@@ -13,12 +13,14 @@
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"babel-preset-env": "^1.6.1",
 		"jest": "^21.2.1",
+		"prettier": "1.9.0",
 		"rollup": "^0.52.1",
 		"rollup-plugin-babel": "^3.0.2",
 		"xstate": "^1.2.1"
 	},
 	"scripts": {
 		"build": "rollup -c",
-		"test": "jest"
+		"test": "jest",
+		"pretty": "prettier --write \"{src,example}/**/*.js\" README.md"
 	}
 }
