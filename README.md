@@ -4,7 +4,11 @@ A reducer enhancer for using an xstate statechart with redux.
 
 ## Heads Up!
 
-This is a very early release and the API is subject to change - feedback is very welcome!
+**This project is no longer actively maintained and was never published to the npm registry.** I ended up transitioning away from the project I built it for, and I don't really have a use for it as of now, so don't intend to keep up with it. Because of that, I don't intend to publish it to npm because I don't want to squat on this name.
+
+**If you're interested in taking it over, I'm more than happy to transfer ownership of the repo!**
+
+If you want to try it out, you can [include the github repo in your package.json](https://stackoverflow.com/questions/23210437/npm-install-private-github-repositories-by-dependency-in-package-json) or clone it and include it locally.
 
 ## What's this for?
 
